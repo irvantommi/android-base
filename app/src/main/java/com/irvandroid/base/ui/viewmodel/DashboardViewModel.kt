@@ -1,4 +1,4 @@
-package com.irvandroid.base.ui.dashboard
+package com.irvandroid.base.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

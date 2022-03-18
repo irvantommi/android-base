@@ -1,4 +1,4 @@
-package com.irvandroid.base
+package com.irvandroid.base.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.irvandroid.base.R
 import com.irvandroid.base.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

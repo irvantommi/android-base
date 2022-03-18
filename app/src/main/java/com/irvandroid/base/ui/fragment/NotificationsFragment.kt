@@ -1,4 +1,4 @@
-package com.irvandroid.base.ui.notifications
+package com.irvandroid.base.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.irvandroid.base.databinding.FragmentNotificationsBinding
+import com.irvandroid.base.ui.viewmodel.NotificationsViewModel
 
 class NotificationsFragment : Fragment() {
 

@@ -1,13 +1,13 @@
-package com.irvandroid.base.ui.home
+package com.irvandroid.base.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class NotificationsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is notifications Fragment"
     }
     val text: LiveData<String> = _text
 }
